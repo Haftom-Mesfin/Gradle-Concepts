@@ -3,3 +3,9 @@ task helloWorld{
         println "Hello - Gradle!."
     }
 }
+
+task byeWorld{
+    doLast {
+        println "Bye - World!"
+    }
+}
